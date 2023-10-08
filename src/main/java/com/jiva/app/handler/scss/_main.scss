@@ -1,0 +1,62 @@
+/*  ----------------------- Slick Slider ---------------------------------  */
+
+.slick-list {
+  z-index: 1;
+}
+
+.slick-track {
+  margin-left: inherit !important;
+}
+.slick-prev {
+  left: 15px !important;
+  z-index: 2;
+}
+.slick-next {
+  right: 25px !important;
+  z-index: 2;
+}
+.slick-next::before,
+.slick-prev::before {
+  color: $grey100 !important;
+  background-color: $grey500;
+  box-shadow: none;
+  border-radius: 50%;
+}
+
+.slick-dots {
+  bottom: 5px !important;
+  z-index: 2;
+}
+.slick-dots li {
+  margin: 0px !important;
+}
+.slick-dots li.slick-active button::before {
+  color: $grey100 !important;
+}
+.slick-dots li button::before {
+  font-size: 8px;
+  color: $grey100 !important;
+}
+
+/*  -----------------------End Slick Slider ---------------------------------  */
+
+.highlight {
+  display: flex;
+  align-items: center;
+  background-color: $grey50;
+  padding: 15px 20px;
+  color: $grey600;
+  margin: 20px 0 10px 0;
+  border: 1px solid $grey300;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.highlight-icon {
+  color: $grey500;
+  margin-right: 10px;
+}
+
+.highlight-typo {
+  font-weight: 500 !important;
+}
